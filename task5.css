@@ -1,0 +1,55 @@
+body{
+    background-image: url(./BG1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ol li{
+    list-style:none;
+    padding: 30px;
+    display: inline-flex;
+    margin-left: 50px;
+    color: white;
+}
+#more{
+margin: 0px 0px 350px 80%;
+padding: 10px;
+border-radius: 5px;
+margin-left: 95%;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 80px;
+    margin-top: -50px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: 3px solid white ;
+    margin: 10px;
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    margin-top: -80px;
+}
+.select{
+    margin-top: -70px;
+    margin-right: 100px;
+    
+}
+
+ol li:hover{
+    background-color: white;
+    color: black;
+    padding: 10px 20px  10px 20px;
+    border-radius: 5px;
+}
